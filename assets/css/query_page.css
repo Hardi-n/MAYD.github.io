@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+h1{
+    color: darkslategrey;
+}
+h2{
+    color: rgb(84, 122, 47);
+}
+.body{
+    width: 65%;
+    margin: 0 auto;
+    font-family: 'open sans',sans-serif;
+}
+.first{
+    font-weight: 600;
+    margin: 0.5rem auto;
+}
+.second{
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    font-family: 'open sans',sans-serif;
+    justify-content: space-between;
+}
+form{
+    width: 60%;
+    position: relative;
+    margin: 1rem auto 0 auto;
+}
+.label{
+    display: block;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+}
+.form_div{
+    display: flex;
+    justify-content: space-between;
+}
+.query_label{
+    width: 100%;
+}
+.background{
+    height: 237.7px;
+    background-image:linear-gradient(rgba(255, 255, 255, 2.3),transparent), url('../images/gettyimages-490963203-898475621.jpg');
+}

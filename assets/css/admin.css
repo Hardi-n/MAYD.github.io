@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    height: 120px;
+    flex-wrap: wrap;
+    position: sticky;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 0;
+    border-top: 5px solid gold;
+}
+
+.navbar_img_div {
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.navbar_img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar_admin_icon {
+    width: 60%;
+    margin-top: 2%;
+    text-align: right;
+    align-items: right;
+}
+
+.navbar_admin_icon i {
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+.navbar_admin_icon h4 {
+    margin-right: -1%;
+}
+
+.navbar_admin_logout {
+    margin-top: 4%;
+    font-family: 'open sans', sans-serif;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.navbar_admin_logout a {
+    background-color: gold;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_admin_logout a:hover {
+    background-color: black;
+    color: gold;
+}
+
+.first {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: gold;
+    padding: 2rem 0;
+}
+
+.first_content a {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    width: 15%;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+}
+
+.first_content a:hover {
+    border-bottom: 2px solid black;
+}
+
+.addproduct_div {
+    height: 520px;
+    background-image: url('../images/background.png');
+}
+
+.addproduct {
+    padding-top: 3%;
+    width: 100%;
+}
+
+.addproduct_form {
+    padding: 1rem;
+    margin-left: 25%;
+    width: 25%;
+    border-radius: 9px;
+    background-color: rgba(192, 177, 177, 0.5);
+    border: 2px solid rgb(145, 135, 135);
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.999);
+}
+
+.addproduct_form label {
+    display: block;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.addproduct_form input {
+    padding: 15px;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+}
+
+.viewproduct {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.viewproduct table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.viewproduct table thead {
+    background-color: gold;
+}
+
+.viewproduct table th,
+.viewproduct table td {
+    width: 10%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.viewproduct table tbody tr:nth-child(even) td {
+    background-color: #eee;
+}
+
+
+.viewproduct table td .a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    padding: 10px;
+    margin-left: 5%;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5%;
+}
+
+.viewproduct table td .a:hover {
+    color: gold;
+    background-color: black;
+}
+
+.order_list {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.order_list table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.order_list table thead {
+    background-color: gold;
+}
+
+.order_list table th,
+.order_list table td {
+    width: 10%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.order_list table tbody tr:nth-child(even) td {
+    background-color: #eee;
+}
+
+.enquerylist {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.enquerylist table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.enquerylist table thead {
+    background-color: gold;
+}
+
+.enquerylist table th,
+.enquerylist table td {
+    width: 10%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.enquerylist table tbody tr:nth-child(even) td {
+    background-color: #eee;
+}
+
+.registereduser {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.registereduser table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.registereduser table thead {
+    background-color: gold;
+}
+
+.registereduser table th,
+.registereduser table td {
+    width: 10%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.registereduser table tbody tr:nth-child(even) td {
+    background-color: #eee;
+}
+
+.orderdetails {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.orderdetails_table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.orderdetails_th {
+    width: 10%;
+    background-color: gold;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.orderdetails_tr {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.orderdetails_tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.orderdetails_td {
+    /* background-color: white; */
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.orderdetails_div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

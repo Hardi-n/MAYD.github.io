@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    position: sticky;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 0;
+    border-top: 5px solid gold;
+}
+
+.navbar_img_div {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.navbar_img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar_content {
+    text-align: center;
+    /* justify-content: space-between; */
+    margin-top: 35px;
+    width: 50%;
+    /* margin-left: 4.5%; */
+}
+
+.navbar_content a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 5% 0 0;
+    font-weight: 600;
+}
+
+.navbar_content a:hover {
+    color: gold;
+}
+
+.navbar_admin_icon {
+    width: 5%;
+    margin-top: 2%;
+    text-align: right;
+    align-items: right;
+}
+
+.navbar_admin_icon i {
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+.navbar_admin_logout {
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.navbar_admin_logout a {
+    background-color: gold;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_admin_logout a:hover {
+    background-color: black;
+    color: gold;
+}
+
+.first {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gold;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.first_content {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.first_content a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.cart {
+    margin-top: 0.8rem;
+    text-align: center;
+}
+
+.cart_table {
+    border: 1px solid black;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.cart_table_tr {
+    border: 1px solid black;
+}
+
+.cart_table td {
+    border: 1px solid black;
+}
+
+.cart_table_th {
+    padding: 1rem;
+    width: 12%;
+    background-color: gold;
+    border: 2px solid black;
+}
+
+.cart_table_td img {
+    height: 100px;
+    width: 100%;
+}
+
+.cart_buttons {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padding1rem {
+    padding: 1rem;
+}
+
+.cart_button1 {
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: 'open sans', sans-serif;
+    font-weight: 600;
+    padding: 1rem;
+    margin-right: 2px;
+}
+
+.cart_buttons div {
+    margin-left: 28%;
+    border: 2px solid black;
+}
+
+.cart_button2 {
+    cursor: pointer;
+    display: block;
+    margin-left: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-weight: 600;
+    padding: 1rem;
+    background-color: black;
+}
+
+.second {
+    padding: 0.5rem;
+    margin: 1rem 2rem;
+}
+
+.orderhistory {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.orderhistory_table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.orderhistory_th {
+    background-color: gold;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.orderhistory_tr {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.orderhistory_tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.orderhistory_td {
+
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.profile_img {
+    width: 20%;
+    margin: 2rem 1rem;
+    margin-left: 2rem;
+}
+
+.profile_content {
+    width: 60%;
+    font-family: 'open sans', sans-serif;
+}
+
+.profile_content_div {
+    text-align: center;
+}
+
+.profile_content_div h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.profile_content_div_span {
+    color: blue;
+    padding-left: 5px;
+}
+
+.edit_profile_button button {
+    margin-top: 50%;
+    padding: 15px;
+    border: 2px solid black;
+    outline: none;
+    background-color: white;
+    font-family: 'open sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form_order_placed {
+    font-family: 'open sans', sans-serif;
+    padding: 2rem;
+    width: 400px;
+    margin: 1rem auto;
+    border: 2px solid black;
+}
+
+.input {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.button {
+    margin: 1rem auto;
+    padding: 15px;
+    background-color: gold;
+    outline: none;
+    border: 0px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: gold;
+    background-color: black;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.button_placed_order {
+    margin: 1rem auto;
+    padding: 15px;
+    background-color: gold;
+    outline: none;
+    border: 0px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: -5%;
+    position: absolute;
+}
+
+.orderdetails {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.orderdetails_table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.orderdetails_th {
+    width: 10%;
+    background-color: gold;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.orderdetails_tr {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.orderdetails_tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.orderdetails_td {
+    /* background-color: white; */
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.orderdetails_div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text_align_center {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.login_btn{
+    color: black;
+    padding: 15px;
+    background-color: gold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.height440 {
+    height: 440px;
+}
+
+.padding10p {
+    padding: 10%;
+}
+
+.errorimg {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.marginleft0 {
+    margin-left: 0 !important;
+}
